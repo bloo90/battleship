@@ -22,14 +22,13 @@ def random_col(board):
 
 ship_row = random_row(board)
 ship_col = random_col(board)
+
 """
 DEBUG only, it shows ship position
 print(ship_row)
 print(ship_col)
-
 """
-# Everything from here on should go in your for loop!
-# Be sure to indent four spaces!
+
 for turn in range(4):
     guess_row = int(input("Guess Row:"))
     guess_col = int(input("Guess Col:"))
